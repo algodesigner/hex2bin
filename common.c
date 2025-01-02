@@ -25,6 +25,7 @@
   20170304 JP: added the 16-bit checksum 8-bit wide
 */
 
+#define __COMMON_C__
 #include "common.h"
 
 filetype    Filename;           /* string for opening files */
