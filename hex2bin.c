@@ -211,7 +211,7 @@ int main (int argc, char *argv[])
                 }
                 if (temp > Highest_Address)
                     Highest_Address = temp;
-                    if (Verbose_Flag) fprintf(stderr,"Highest_Address: %08X\n",Highest_Address);
+                if (Verbose_Flag) fprintf(stderr,"Highest_Address: %08X\n",Highest_Address);
                 break;
 
 
